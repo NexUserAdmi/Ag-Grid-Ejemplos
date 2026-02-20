@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+// ELIMINA los @import de ag-grid.css y ag-theme-quartz.css
+
+:root {
+  // Ahora puedes personalizar usando la nueva API de temas si quieres
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
